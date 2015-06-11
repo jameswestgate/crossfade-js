@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<title>Crossfade Plug-in Example</title>
+</head>
+<body>
+	<section>
+		<p class="fade-from">This is the text to fade from ...</p>
+		<p class="fade-to">... and this is the text to fade to</p>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="../src/crossfade.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('section').crossfade();
+		})
+	</script>
+</body>
+</html>
+
